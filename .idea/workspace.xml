@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b6a3a57-f6e8-4e05-86b9-996fb8eee599" name="Default Changelist" comment="">
+    <list default="true" id="9b6a3a57-f6e8-4e05-86b9-996fb8eee599" name="Default Changelist" comment="Modif">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,8 +54,32 @@
       <workItem from="1610539004545" duration="36000" />
       <workItem from="1610539043461" duration="2000" />
       <workItem from="1610539082917" duration="171000" />
-      <workItem from="1610539269005" duration="978000" />
+      <workItem from="1610539269005" duration="1694000" />
+      <workItem from="1610542618992" duration="566000" />
+      <workItem from="1610543681027" duration="7000" />
     </task>
+    <task id="LOCAL-00001" summary="Modif">
+      <created>1610540330314</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1610540330314</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Modif">
+      <created>1610540624154</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1610540624154</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Modif">
+      <created>1610540764383</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1610540764383</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -74,5 +96,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Modif" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modif" />
   </component>
 </project>
