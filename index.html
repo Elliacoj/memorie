@@ -8,6 +8,36 @@
     <script src="script.js" async></script>
 </head>
 <body>
+    <div id="container">
+        <h1>Mon mémory</h1>
+        <p id="rules">Chaque carte a son binome, à vous de les trouver en même temps.</p>
+        <div id="game">
+            <div class="line" id="lineOne">
+                <div class="card empty notOk" id="oneCaseOne"></div>
+                <div class="card empty notOk" id="oneCaseTwo"></div>
+                <div class="card empty notOk" id="oneCaseThree"></div>
+                <div class="card empty notOk" id="oneCaseFour"></div>
+            </div>
 
+            <div class="line" id="lineTwo">
+                <div class="card empty notOk" id="twoCaseOne"></div>
+                <div class="card empty notOk" id="twoCaseTwo"></div>
+                <div class="card empty notOk" id="twoCaseThree"></div>
+                <div class="card empty notOk" id="twoCaseFour"></div>
+            </div>
+
+            <div class="line" id="lineThree">
+                <div class="card empty notOk" id="threeCaseOne"></div>
+                <div class="card empty notOk" id="threeCaseTwo"></div>
+                <div class="card empty notOk" id="threeCaseThree"></div>
+                <div class="card empty notOk" id="threeCaseFour"></div>
+            </div>
+
+            <div id="endGame">Bien joué!!!</div>
+        </div>
+
+        <button id="newGame">Nouvelle partie</button>
+        <div id="score">Score: <span id="points">0</span></div>
+    </div>
 </body>
 </html>
