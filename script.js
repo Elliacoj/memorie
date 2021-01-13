@@ -6,8 +6,12 @@ let score = document.getElementById("points");
 
 let arrayImg = ["ange.jpg", "argent.jpg", "bave.jpg", "bouche.jpg", "fete.jpg", "lunette.jpg"];
 
+// Button for begin game
 document.getElementById("newGame").addEventListener("click", newGame);
 
+/**
+ * Function for begin game
+ */
 function newGame() {
 
     reset()
@@ -20,6 +24,10 @@ function newGame() {
     choicesCard();
 }
 
+/**
+ * Function for creat random image
+ * @param x
+ */
 function newCard(x) {
     let number = random();
 
@@ -36,10 +44,17 @@ function newCard(x) {
     }
 }
 
+/**
+ * Function for creat a random number between 0 and 11
+ * @returns {number}
+ */
 function random() {
     return Math.trunc(Math.random() * 12);
 }
 
+/**
+ * Function for choice à carte and check if the 2 choices is true or false
+ */
 function choicesCard() {
     for(let card of cards) {
         card.addEventListener("click", function () {
@@ -80,6 +95,9 @@ function choicesCard() {
     }
 }
 
+/**
+ * Function for condition of end game
+ */
 function endGame() {
     for(let x = 0; x < lines.length; x++) {
         lines[x].style.display = "none";
@@ -88,6 +106,9 @@ function endGame() {
     document.getElementById("endGame").style.display = "flex";
 }
 
+/**
+ * Function for reset the game
+ */
 function reset() {
     choices = 2;
     score.innerHTML = "0";
