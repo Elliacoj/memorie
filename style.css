@@ -42,7 +42,7 @@ p {
 
 #game {
     width: 640px;
-    height: 500px;
+    height: 480px;
     border: 2px solid black;
     box-shadow: 5px 5px 5px lightgray;
     margin: auto;
@@ -96,8 +96,15 @@ p {
     justify-content: center;
     align-items: center;
     font-size: 4rem;
+    font-style: italic;
     height: 100%;
     width: 100%;
+    background-image: url("feu.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #7e0505;
+    text-shadow: 2px 2px 5px #ffcb00;
 }
 
 @media screen and (max-width: 900px){
